@@ -1,0 +1,4 @@
+pet_pals/db.sqlite
+__pycache__
+.ipynb_checkpoints
+.csv
