@@ -1,4 +1,5 @@
 safeboda/SafeBoda.sqlite
 __pycache__
 .ipynb_checkpoints
-.csv
+SafeBoda_Passenger_Cancellations_Kampala_Jan11_17.csv
+SafeBoda.sqlite
