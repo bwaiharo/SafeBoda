@@ -12,6 +12,7 @@ app = Flask(__name__)
 
 # The database URI
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL','') or "sqlite:///SafeBoda.sqlite" or "CREATE DATABASE_URL"
+# app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL','') or "CREATE DATABASE_URL"
 
 db = SQLAlchemy(app)
 
@@ -38,8 +39,8 @@ class SafeBoda(db.Model):
 
   
 
-    def __repr__(self):
-        return '<SafeBoda %r>' % (self.name)
+    # def __repr__(self):
+    #     return '<SafeBoda %r>' % (self.name)
 
 
 # Create database tables
